@@ -38,5 +38,19 @@ public class count {
 		while(number>0);
 		System.out.println(even);
 		System.out.println(odd);
+		//
+		do {
+			int rem2 = number%10;
+			if(rem2%2==0) {
+				even++;
+			}
+			else {
+				odd++;
+			}
+			number = number/10;
+		}
+		while(number>0);
+		System.out.println(even);
+		System.out.println(odd);
 	}
 }
