@@ -13,6 +13,9 @@ public class even {
 				evencount++;
 				System.out.println(a);
 			}
+			
+			//updated
+			
 		}
 		System.out.println("Total count of even numbers : " +evencount);
 		
